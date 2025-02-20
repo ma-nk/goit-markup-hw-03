@@ -15,6 +15,10 @@ body {
   color: #434455;
 }
 
+img {
+  display: block;
+}
+
 .container {
   margin: 0 auto;
   width: 1158px;
@@ -283,7 +287,7 @@ a:visited {
   padding: 120px 0;
 }
 
-.team-title {
+.team-main-title {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -512,7 +516,6 @@ a:visited {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   margin-bottom: 8px;
   margin: 0;
   padding: 0;
