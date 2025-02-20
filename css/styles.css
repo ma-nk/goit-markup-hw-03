@@ -293,6 +293,36 @@ button {
   text-align: center;
 }
 
+.nav-item:nth-child(1) .link::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 .social-li {
   display: flex;
   justify-content: center;
