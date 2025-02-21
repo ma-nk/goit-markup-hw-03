@@ -541,7 +541,6 @@ a:visited {
 }
 
 .footer-container {
-  display: flex;
   justify-content: start;
   align-items: baseline;
   flex-direction: row;
