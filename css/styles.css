@@ -17,6 +17,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -40,7 +42,6 @@ img {
 
 .header {
   width: 100%;
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -118,7 +119,6 @@ a:visited {
   position: absolute;
   left: 0;
   bottom: -1px;
-  height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
 }
@@ -227,7 +227,6 @@ a:visited {
 .order-button {
   display: block;
   min-width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -277,7 +276,6 @@ a:visited {
 
 .pm-icon-container {
   width: 100%;
-  height: 112px;
   border: 1px solid #8e8f99;
   display: flex;
   justify-content: center;
@@ -398,7 +396,6 @@ a:visited {
 
 .social-item {
   width: 40px;
-  height: 40px;
 }
 
 .social-link {
@@ -420,7 +417,6 @@ a:visited {
 .social-icon {
   fill: #f4f4fd;
   width: 16px;
-  height: 16px;
 }
 
 .portfolio {
@@ -456,7 +452,6 @@ a:visited {
 
 .pm-item {
   width: 360px;
-  height: 420px;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -486,14 +481,12 @@ a:visited {
 
 .pm-image-block {
   width: 360px;
-  height: 300px;
   position: relative;
   overflow: hidden;
 }
 
 .pm-container {
   width: 100%;
-  height: 120px;
   border-width: 0px, 1px, 1px, 1px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -544,7 +537,6 @@ a:visited {
 
 .footer {
   background-color: #2e2f42;
-  height: 312px;
   padding: 100px 0;
 }
 
@@ -612,7 +604,6 @@ a:visited {
 
 .footer-social-item {
   width: 40px;
-  height: 40px;
 }
 
 .footer-social-link {
